@@ -23,7 +23,7 @@ async def verify_link(session, url):
         return None
 
 async def send_code_to_discord(session, url):
-    webhook_url = "https://discord.com/api/webhooks/1282114090424340510/KpIIQPnttws77JYyjlHu86S2x2bAWlbfSEGqgUhtPUa7EY6CKXFg9_bya0vbSwfVQMiz"
+    webhook_url = "WEBHOOKHERE"
     data = {
         "content": f"Generated Nitro code: {url}"
     }
